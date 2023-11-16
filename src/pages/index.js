@@ -1,0 +1,17 @@
+export { default as Dashboard } from './Dashboard';
+export { default as Events } from './Events';
+export { default as Playground } from './Playground';
+export { default as Active } from './Students/Active';
+export { default as Potential } from './Students/Potential';
+export { default as Instructor } from './Trainers/Instructor';
+export { default as Mentor } from './Trainers/Mentor';
+export { default as Transactions } from './Transactions';
+export { default as Auth } from './Auth/Components/Layout';
+export { default as ChangePassword } from './Auth/ChangePassword';
+export { default as CheckEmail } from './Auth/CheckEmail';
+export { default as LoginForm } from './Auth/LoginForm';
+export { default as ResetPassword } from './Auth/ResetPassword';
+export { default as AdminSettings } from './AdminSettings/Layout';
+export { default as Departments } from './AdminSettings/Departments';
+export { default as Profile } from './AdminSettings/Profile';
+export { default as Users } from './AdminSettings/Users';
