@@ -25,6 +25,11 @@ const Dashboard = () => {
 		console.log(year);
 	};
 
+	const currentDateTime = new Date();
+
+	const options = { month: 'short', day: 'numeric', year: 'numeric' };
+	const formattedDateTime = currentDateTime.toLocaleDateString(undefined, options);
+
 	// students data
 	const data = [
 		{
@@ -107,7 +112,7 @@ const Dashboard = () => {
 				<div className="page--header">
 					<h5>Welcome back, Daniella 🌞</h5>
 					<p>
-						This is your stats today - <span>Sept. 16, 2022</span>
+						This is your stats today - <span>{formattedDateTime}</span>
 					</p>
 				</div>
 			</PageHeader>

@@ -22,10 +22,10 @@ const PageHeader = ({ title, children }) => {
 
 			<div className="profile">
 				<div className="dropdown--con" tabIndex={0}>
-					<div className="initials">ft</div>
+					<div className="initials">de</div>
 
 					<div>
-						<div className="name">Frontend Team</div>
+						<div className="name">Daniella Evans</div>
 						<div className="role">Admin</div>
 					</div>
 					<CaretDownFill />

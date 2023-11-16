@@ -10,7 +10,7 @@ To install packages being used, then
 
 To start the server
 
-## Components usage
+<!-- ## Components usage
 
 How components are used and their different states when given different props can be seens in route [**/playground**](https:localhost:3000/playground).
 
@@ -83,4 +83,4 @@ Use uppercase and underscore for
 - Improper naming conventions (modules names or classnames)
 - Installing unused packages
 - Installing a package for every minor task
-- Not decalaring universal constants that could change in a single file (constants folder)
+- Not decalaring universal constants that could change in a single file (constants folder) -->
